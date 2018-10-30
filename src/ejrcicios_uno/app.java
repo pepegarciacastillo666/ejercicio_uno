@@ -1,5 +1,8 @@
 package ejrcicios_uno;
 
+
+import java.lang.Math;
+
 public class app {
     public static void main(String args[])
     {
@@ -54,6 +57,14 @@ public class app {
         	i++;
         }
         System.out.println("Termino");
+        
+        int recipiente=0;
+        float fuente = 2.22f;
+        
+        recipiente = Math.round(fuente);
+        
+        System.out.println("Tenemos un int de valor:" + recipiente);
+        
         
     }
     
